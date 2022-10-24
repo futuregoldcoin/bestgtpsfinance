@@ -83,11 +83,11 @@ const SwapSection = styled.div<{ redesignFlag: boolean }>`
     redesignFlag &&
     css`
       background-color: ${({ theme }) => theme.backgroundModule};
-      border-radius: 12px;
-      padding: 16px;
+      border-radius: 500px;
+      padding: 20px;
       color: ${({ theme }) => theme.textSecondary};
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 17px;
+      line-height: 60px;
       font-weight: 500;
 
       &:before {
