@@ -15,11 +15,11 @@ export const BaseButton = styled(RebassButton)<
     altDisabledStyle?: boolean
   } & ButtonProps
 >`
-  padding: ${({ padding }) => padding ?? '16px'};
-  width: ${({ width }) => width ?? '100%'};
+  padding: ${({ padding }) => padding ?? '10px'};
+  width: ${({ width }) => width ?? '180%'};
   font-weight: 500;
   text-align: center;
-  border-radius: ${({ $borderRadius }) => $borderRadius ?? '20px'};
+  border-radius: ${({ $borderRadius }) => $borderRadius ?? '40px'};
   outline: none;
   border: 1px solid transparent;
   color: ${({ theme }) => theme.deprecated_text1};
